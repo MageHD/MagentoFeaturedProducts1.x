@@ -1,5 +1,6 @@
 # MagentoFeaturedProducts1.x
-A Simple Magento Featured Products extension. It includes automatic carousel mode and is mobile repsonsive.
+A Simple Magento Featured Products extension. It includes automatic carousel mode and is mobile repsonsive. This extension was tested with Magento version 1.9.3.1
+
 #Installation 1st Option
 1. Drag and drop to your Magento 1.x root directory
 
