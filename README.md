@@ -11,3 +11,5 @@ A Simple Magento Featured Products extension. It includes automatic carousel mod
  2. Option 2 (CMS or Static Block Placement)
  {{block type="featured/products" block_id="magehd featured" template="custom/block.phtml"}}
  
+ #Usage
+ 1. Set your product as featured on the product edit page or select all products and update the attribute with the actions dropdown.
