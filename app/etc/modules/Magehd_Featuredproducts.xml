@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Magehd_Featuredproducts>
+      <active>true</active>
+      <codePool>community</codePool>
+    </Magehd_Featuredproducts>
+  </modules>
+</config>

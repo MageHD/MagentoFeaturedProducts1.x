@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Magehd_Featuredproducts>
+			<version>1.0</version>
+		</Magehd_Featuredproducts>
+	</modules>
+	<global>
+		<blocks>
+			<featured>
+				<class>Magehd_Featuredproducts_Block</class>
+			</featured>
+		</blocks>
+		<models>
+	        <featured>
+	            <class>Magehd_Featuredproducts_Model</class>
+	        </featured>
+    	</models>
+
+		<helpers>
+			<featuredproducts>
+				<class>Magehd_Featuredproducts_Helper</class>
+			</featuredproducts>
+		</helpers>
+		<resources>
+			<featured_setup>
+				<setup>
+					<module>Magehd_Featuredproducts</module>
+					<class>Mage_Catalog_Model_Resource_Setup</class>
+				</setup>
+			</featured_setup>
+		</resources>
+	</global>
+    <frontend>
+	<layout>
+		<updates>
+			<featured>
+				<file>magehd/featuredproducts/featuredproducts.xml</file>
+			</featured>
+		</updates>
+	</layout>
+    <routers>
+        <featuredproducts>
+            <use>standard</use>
+            <args>
+                <module>Magehd_Featuredproducts</module>
+                <frontName>featuredproducts</frontName>
+            </args>
+        </featuredproducts>
+    </routers>
+	</frontend>
+	<adminhtml>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<featured_options>
+										<title>Featured Products Configuration</title>
+									</featured_options>
+									<featured_carousel_settings>
+										<title>Featured Products Configuration</title>
+									</featured_carousel_settings>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</adminhtml>
+</config>
